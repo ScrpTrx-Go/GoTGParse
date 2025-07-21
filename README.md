@@ -1,6 +1,6 @@
 # GoTGParse
 
-GoParse —  парсер и анализатор Telegram-каналов на основе TDLib, с сохранением результатов в PostgreSQL и генерацией отчётов в формате Word/Excel.
+GoTGParse —  парсер и анализатор Telegram-каналов на основе TDLib, с сохранением результатов в PostgreSQL и генерацией отчётов в формате Word/Excel.
 
 ---
 
