@@ -1,0 +1,14 @@
+# TDLib data
+/internal/infra/telegram/data/tdlib-db/
+/internal/infra/telegram/data/tdlib-files/
+/internal/infra/telegram/data/**/*.sqlite*
+/internal/infra/telegram/data/**/*.binlog
+
+# Logs
+logs/
+*.log
+
+# Reports
+/reports/report.xlsx
+/reports/sledcom.docx
+/reports/errors.docx

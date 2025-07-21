@@ -1,0 +1,31 @@
+tdlib:
+  use_test_dc: false
+  database_directory: "./internal/infra/telegram/data/tdlib-db"
+  files_directory: "./internal/infra/telegram/data/tdlib-files"
+  use_file_database: true
+  use_chat_info_database: true
+  use_message_database: true
+  use_secret_chats: false
+  api_id: your_api_id
+  api_hash: "your_api_hash"
+  system_language_code: "en"
+  device_model: "MyPC"
+  system_version: "Linux"
+  application_version: "1.0"
+  log_level: 1
+  usernames:
+   - "sledcom_press"
+  gethistory:
+   from_message_id: 0
+   offset: 0
+   limit: 100
+   only_local: false
+
+database:
+  dsn: "your_database_dsn"
+
+logger:
+  level: "debug"
+  file_path: "./logs/app.log"
+  production: false
+
